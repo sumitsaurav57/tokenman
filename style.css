@@ -66,7 +66,8 @@ button {
 }
 .title {
   text-transform: uppercase;
-  font-size: 10vh;
+
+  font-size: clamp(1rem, 10vw, 2rem); 
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 #name {
